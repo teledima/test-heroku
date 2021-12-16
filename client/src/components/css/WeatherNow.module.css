@@ -1,0 +1,25 @@
+.WeatherNow {
+    padding-right: 1rem;
+}
+
+.WeatherImageContainer {
+    display: flex;
+    align-items: center;
+}
+
+.WeatherImageContainer > p {
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+.TempretureUnit {
+    font-weight: bold;
+}
+
+.WhiteText {
+    color: white;
+}
+
+.CityText {
+    color: #5C4E53;
+}

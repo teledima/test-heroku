@@ -1,0 +1,15 @@
+.Characteristic {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    font-weight: normal;
+}
+
+.Characteristic > img {
+    margin: auto;
+}
+
+.Characteristic > p {
+    margin: 0;
+    font-weight: 600;
+}

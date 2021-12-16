@@ -1,0 +1,25 @@
+.Animation {
+    animation: load 1.1s infinite linear;
+}
+
+
+@-webkit-keyframes load {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes load {
+    0% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+    100% {
+      -webkit-transform: rotate(00deg);
+      transform: rotate(0deg);
+    }
+  }

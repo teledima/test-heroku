@@ -1,0 +1,34 @@
+.Home {
+    background-color: #C1C9CF;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    min-width: 912px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+.HomeList > div:last-child {
+    display: flex;
+    flex-direction: row;
+}
+
+.HomeList:first-of-type {
+    padding-top: 0;
+}
+
+.HomeList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 1rem;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+.WhiteText {
+    color: white;
+}
