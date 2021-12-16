@@ -9,6 +9,7 @@ function App() {
   const [Weather, setWeather] = useLocalStorage('weather')
   const settingsState = useLocalStorage('settings')
   const state = useAsync(async() =>{
+	console.log('Hello World')
     const data = await new WeatherService().GetCurrentWeather('perm')
     setWeather(data)
   })
